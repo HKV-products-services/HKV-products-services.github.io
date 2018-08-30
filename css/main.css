@@ -3,7 +3,7 @@ body {
 }
 
 a {
-  color: #8a5ed3;
+  color: #00A6DE;
   text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ b {
 
 .hkv {
   font-weight: 500;
-  color: #652c90;
+  color: #0080C4;
 }
 
 /* --- */
@@ -80,6 +80,9 @@ b {
 
 .header .lead {
   font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .footer {
@@ -219,7 +222,7 @@ b {
 }
 
 .lead {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -458,6 +461,11 @@ pre.bibtex {
   padding: 4px;
   border: 1px solid #ccc;
   margin-bottom: 16px;
+}
+
+.header img {
+  height: 40px;
+  padding: 4px;
 }
 
 .thumbnail--image img {
